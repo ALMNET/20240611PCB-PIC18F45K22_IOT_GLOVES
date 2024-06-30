@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
@@ -13351,7 +13351,7 @@ Variant with I2C interface</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DISPLAY-OLED-128X64-I2C">
+<deviceset name="DISPLAY-OLED-128X64-I2C" prefix="OLED">
 <description>&lt;b&gt;128x64 Dot Matrix OLED Module&lt;/b&gt; based on &lt;b&gt;SSD1306&lt;/b&gt; chip&lt;br /&gt;
 Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 &lt;p&gt;More details available here:&lt;br /&gt;
@@ -13634,7 +13634,7 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ESP32DEVKITV1">
+<deviceset name="ESP32DEVKITV1" prefix="ESP32$">
 <gates>
 <gate name="G$1" symbol="ESP32-DEVKITV1" x="0" y="0"/>
 </gates>

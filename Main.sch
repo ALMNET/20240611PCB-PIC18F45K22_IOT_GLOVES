@@ -13599,8 +13599,8 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <wire x1="-25.4" y1="12.7" x2="16" y2="12.7" width="0.254" layer="94"/>
 <wire x1="16" y1="12.7" x2="16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="16" y1="-12.7" x2="-25.4" y2="-12.7" width="0.254" layer="94"/>
-<pin name="3V3" x="-22.86" y="-17.78" length="middle" rot="R90"/>
-<pin name="GND" x="-20.32" y="-17.78" length="middle" rot="R90"/>
+<pin name="3V3" x="-22.86" y="-17.78" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND" x="-20.32" y="-17.78" length="middle" direction="pwr" rot="R90"/>
 <pin name="IO15" x="-17.78" y="-17.78" length="middle" rot="R90"/>
 <pin name="IO2" x="-15.24" y="-17.78" length="middle" rot="R90"/>
 <pin name="IO4" x="-12.7" y="-17.78" length="middle" rot="R90"/>
@@ -13627,8 +13627,8 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <pin name="IO14" x="-12.7" y="17.78" length="middle" rot="R270"/>
 <pin name="IO12" x="-15.24" y="17.78" length="middle" rot="R270"/>
 <pin name="IO13" x="-17.78" y="17.78" length="middle" rot="R270"/>
-<pin name="GND1" x="-20.32" y="17.78" length="middle" rot="R270"/>
-<pin name="VIN" x="-22.86" y="17.78" length="middle" rot="R270"/>
+<pin name="GND1" x="-20.32" y="17.78" length="middle" direction="pwr" rot="R270"/>
+<pin name="VIN" x="-22.86" y="17.78" length="middle" direction="pwr" rot="R270"/>
 <text x="-26.67" y="5.08" size="1.27" layer="95" rot="R90">&gt;NAME</text>
 <text x="18.4" y="-12.7" size="1.27" layer="96" rot="R90">ESP32-DEVKITV1</text>
 </symbol>
@@ -13644,7 +13644,7 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <connect gate="G$1" pin="3V3" pad="1"/>
 <connect gate="G$1" pin="EN" pad="16"/>
 <connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="GND1" pad="28"/>
+<connect gate="G$1" pin="GND1" pad="29"/>
 <connect gate="G$1" pin="IO1" pad="13"/>
 <connect gate="G$1" pin="IO12" pad="27"/>
 <connect gate="G$1" pin="IO13" pad="28"/>
@@ -13660,7 +13660,7 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 <connect gate="G$1" pin="IO23" pad="15"/>
 <connect gate="G$1" pin="IO25" pad="23"/>
 <connect gate="G$1" pin="IO26" pad="24"/>
-<connect gate="G$1" pin="IO27" pad="24"/>
+<connect gate="G$1" pin="IO27" pad="25"/>
 <connect gate="G$1" pin="IO3" pad="12"/>
 <connect gate="G$1" pin="IO32" pad="21"/>
 <connect gate="G$1" pin="IO33" pad="22"/>
