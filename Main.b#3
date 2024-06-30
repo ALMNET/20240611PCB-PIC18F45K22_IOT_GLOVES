@@ -2187,7 +2187,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="-23.1394" y="32.7768" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="-23.1394" y="32.7768" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="32" x="7.3406" y="93.7368" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-0.2794" y="98.7768" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="4.8552" y="99.0346" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R1" library="resistor" package="0204/7" value="680Ω" x="21.5646" y="73.7362" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.8346" y="74.3712" size="1.27" layer="25" rot="R270"/>
@@ -2204,7 +2204,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="45.7708" y="28.1432" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=228946&amp;manufacturer=Microchip&amp;part_name=PIC18F45K22-I/P&amp;search_term=None" x="45.7708" y="28.1432" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/PIC18F45K22-I/P/Microchip/view-part/?ref=snap" x="45.7708" y="28.1432" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="37.7848" y="2.0902" size="1.27" layer="27" align="top-left"/>
+<attribute name="VALUE" x="39.3088" y="1.8362" size="1.27" layer="27" align="top-left"/>
 </element>
 <element name="C7" library="resistor" package="C025-024X044" value="22pF" x="29.972" y="3.937" smashed="yes" rot="R270">
 <attribute name="NAME" x="31.369" y="3.302" size="1.27" layer="25"/>
@@ -2283,16 +2283,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="14.6304" y="25.0444" size="1.27" layer="27"/>
 </element>
 <element name="U$1" library="diy-modules (2)" package="DISPLAY-OLED-128X64-I2C" value="DISPLAY-OLED-128X64-I2C" x="74.9808" y="82.2706" smashed="yes">
-<attribute name="NAME" x="74.9808" y="97.5106" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="74.9808" y="67.0306" size="1.27" layer="27" align="top-center"/>
+<attribute name="NAME" x="62.7888" y="66.7766" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="75.2348" y="98.0186" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="R5" library="resistor" package="0204/7" value="4k7Ω" x="75.184" y="60.3758" smashed="yes">
-<attribute name="NAME" x="74.549" y="61.6458" size="1.27" layer="25"/>
-<attribute name="VALUE" x="74.549" y="57.8358" size="1.27" layer="27"/>
+<attribute name="NAME" x="65.913" y="60.8838" size="1.27" layer="25"/>
+<attribute name="VALUE" x="65.913" y="59.1058" size="1.27" layer="27"/>
 </element>
 <element name="R6" library="resistor" package="0204/7" value="4k7Ω" x="75.2094" y="56.2864" smashed="yes">
-<attribute name="NAME" x="74.5744" y="57.5564" size="1.27" layer="25"/>
-<attribute name="VALUE" x="74.5744" y="53.7464" size="1.27" layer="27"/>
+<attribute name="NAME" x="65.9384" y="56.2864" size="1.27" layer="25"/>
+<attribute name="VALUE" x="65.9384" y="54.7624" size="1.27" layer="27"/>
 </element>
 <element name="BUZZER" library="buzzer" package="F/TMB" value="F/TMB" x="11.8364" y="6.858" smashed="yes">
 <attribute name="MF" value="" x="11.8364" y="6.858" size="1.778" layer="27" display="off"/>
@@ -2373,8 +2373,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="37.973" y="78.5368" size="1.27" layer="27"/>
 </element>
 <element name="R11" library="resistor" package="0204/7" value="0" x="85.4456" y="64.5922" smashed="yes" rot="R180">
-<attribute name="NAME" x="87.9856" y="63.2968" size="0.9906" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="87.0712" y="65.0748" size="0.9906" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="85.1916" y="63.2968" size="0.9906" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="83.5152" y="62.0268" size="0.9906" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="IC1" library="adafruit" package="TO220H" value="7805T" x="32.258" y="90.4748" smashed="yes">
 <attribute name="NAME" x="27.178" y="84.4296" size="1.27" layer="25" ratio="10"/>
@@ -2384,14 +2384,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.9214" y="79.4766" size="1.778" layer="25" ratio="10"/>
 <attribute name="VALUE" x="47.6504" y="76.1746" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="CN_HEATER" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" package="W237-102" package3d_urn="urn:adsk.eagle:package:10688/1" value="PSU" x="7.3914" y="79.0194" smashed="yes" rot="R270">
+<element name="CN_HEATER" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" package="W237-102" package3d_urn="urn:adsk.eagle:package:10688/1" value="HEATER" x="7.3914" y="79.0194" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="19.3548" y="89.662" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="237-102" x="19.3548" y="89.662" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="2.3876" y="82.8656" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="unknown" x="19.3548" y="89.662" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="19.3548" y="89.662" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="32" x="19.3548" y="89.662" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-0.2286" y="84.0594" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="3.3166" y="84.3534" size="1.27" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>

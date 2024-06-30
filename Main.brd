@@ -49,9 +49,9 @@
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
@@ -2230,14 +2230,14 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="27.6352" y="9.3726" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="18.3388" y="6.2484" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" package="B3F-10XX" package3d_urn="urn:adsk.eagle:package:27496/1" value="" x="27.1526" y="48.7934" smashed="yes">
+<element name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" package="B3F-10XX" package3d_urn="urn:adsk.eagle:package:27496/1" value="RESET" x="27.1526" y="48.7934" smashed="yes">
 <attribute name="MF" value="" x="27.1526" y="48.7934" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="27.1526" y="48.7934" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="24.1046" y="52.4764" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="31.9786" y="48.1584" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="176432" x="27.1526" y="48.7934" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="27.1526" y="48.7934" size="1.778" layer="27" display="off"/>
 <attribute name="POPULARITY" value="72" x="27.1526" y="48.7934" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="24.1046" y="43.7134" size="1.27" layer="27" ratio="10"/>
+<attribute name="VALUE" x="24.3586" y="52.0954" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" package="B3F-10XX" package3d_urn="urn:adsk.eagle:package:27496/1" value="LOCAL/REMOTE" x="27.1272" y="37.3126" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="27.1272" y="37.3126" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2246,7 +2246,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="176432" x="27.1272" y="37.3126" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="27.1272" y="37.3126" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="72" x="27.1272" y="37.3126" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="34.2392" y="42.1386" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="20.3708" y="40.6654" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="S3" library="switch-omron" library_urn="urn:adsk.eagle:library:377" package="B3F-10XX" package3d_urn="urn:adsk.eagle:package:27496/1" value="UP" x="27.051" y="18.0086" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="27.051" y="18.0086" size="1.778" layer="27" rot="R180" display="off"/>

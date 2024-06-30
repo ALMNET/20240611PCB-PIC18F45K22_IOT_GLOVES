@@ -15860,7 +15860,7 @@ Added bigger pads to the TO-92 package</description>
 <part name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="S3" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="S4" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
-<part name="IC1" library="lm35" deviceset="LM35" device="CZ"/>
+<part name="IC3" library="lm35" deviceset="LM35" device="CZ"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -15906,8 +15906,8 @@ Added bigger pads to the TO-92 package</description>
 <part name="C6" library="resistor" deviceset="C-EU" device="025-060X050" value="100nF"/>
 <part name="R11" library="resistor" deviceset="R-US_" device="0204/7" value="0"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="IC2" library="adafruit" deviceset="78*" device="T" technology="05"/>
-<part name="IC3" library="v-reg" deviceset="LD117A?*" device="V" technology="33"/>
+<part name="IC1" library="adafruit" deviceset="78*" device="T" technology="05"/>
+<part name="IC2" library="v-reg" deviceset="LD117A?*" device="V" technology="33"/>
 <part name="CN_HEATER" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" value="PSU"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -16094,7 +16094,7 @@ CONNECTOR</text>
 <attribute name="NAME" x="38.1" y="127" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="40.64" y="132.715" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC1" gate="G$1" x="33.02" y="44.45" smashed="yes">
+<instance part="IC3" gate="G$1" x="33.02" y="44.45" smashed="yes">
 <attribute name="NAME" x="25.4" y="48.26" size="1.778" layer="95"/>
 <attribute name="VALUE" x="35.56" y="36.83" size="1.778" layer="96"/>
 </instance>
@@ -16254,11 +16254,11 @@ CONNECTOR</text>
 <instance part="P+1" gate="1" x="252.73" y="163.83" smashed="yes">
 <attribute name="VALUE" x="250.19" y="158.75" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC2" gate="A1" x="50.8" y="233.68" smashed="yes">
+<instance part="IC1" gate="A1" x="50.8" y="233.68" smashed="yes">
 <attribute name="NAME" x="43.18" y="239.395" size="1.778" layer="95"/>
 <attribute name="VALUE" x="43.18" y="236.855" size="1.778" layer="96"/>
 </instance>
-<instance part="IC3" gate="G$1" x="152.4" y="233.68" smashed="yes">
+<instance part="IC2" gate="G$1" x="152.4" y="233.68" smashed="yes">
 <attribute name="NAME" x="154.94" y="226.06" size="1.778" layer="95"/>
 <attribute name="VALUE" x="154.94" y="223.52" size="1.778" layer="96"/>
 </instance>
@@ -16286,7 +16286,7 @@ CONNECTOR</text>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="50.8" y1="226.06" x2="50.8" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A1" pin="GND"/>
+<pinref part="IC1" gate="A1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -16351,7 +16351,7 @@ CONNECTOR</text>
 <wire x1="46.99" y1="96.52" x2="46.99" y2="87.63" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="33.02" y1="36.83" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
 </segment>
@@ -16392,7 +16392,7 @@ CONNECTOR</text>
 <segment>
 <pinref part="GND30" gate="1" pin="GND"/>
 <wire x1="152.4" y1="226.06" x2="152.4" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="ADJ"/>
+<pinref part="IC2" gate="G$1" pin="ADJ"/>
 </segment>
 <segment>
 <pinref part="GND35" gate="1" pin="GND"/>
@@ -16445,7 +16445,7 @@ CONNECTOR</text>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="68.58" y1="214.63" x2="68.58" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A1" pin="VO"/>
+<pinref part="IC1" gate="A1" pin="VO"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
@@ -16459,7 +16459,7 @@ CONNECTOR</text>
 <wire x1="288.29" y1="237.49" x2="288.29" y2="234.95" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="+VS"/>
+<pinref part="IC3" gate="G$1" pin="+VS"/>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
 <wire x1="22.86" y1="44.45" x2="20.32" y2="44.45" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="44.45" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
@@ -16726,7 +16726,7 @@ CONNECTOR</text>
 <junction x="170.18" y="233.68"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="214.63" x2="182.88" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="OUT"/>
+<pinref part="IC2" gate="G$1" pin="OUT"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -16805,7 +16805,7 @@ CONNECTOR</text>
 <label x="91.44" y="151.13" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VO"/>
+<pinref part="IC3" gate="G$1" pin="VO"/>
 <wire x1="43.18" y1="44.45" x2="57.15" y2="44.45" width="0.1524" layer="91"/>
 <label x="45.72" y="44.45" size="1.778" layer="95"/>
 </segment>
@@ -16860,7 +16860,7 @@ CONNECTOR</text>
 <wire x1="138.43" y1="233.68" x2="144.78" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="138.43" y1="214.63" x2="138.43" y2="233.68" width="0.1524" layer="91"/>
 <junction x="138.43" y="233.68"/>
-<pinref part="IC3" gate="G$1" pin="IN"/>
+<pinref part="IC2" gate="G$1" pin="IN"/>
 </segment>
 <segment>
 <wire x1="36.83" y1="233.68" x2="40.64" y2="233.68" width="0.1524" layer="91"/>
@@ -16870,7 +16870,7 @@ CONNECTOR</text>
 <wire x1="22.86" y1="233.68" x2="36.83" y2="233.68" width="0.1524" layer="91"/>
 <junction x="36.83" y="233.68"/>
 <pinref part="C1" gate="G$1" pin="+"/>
-<pinref part="IC2" gate="A1" pin="VI"/>
+<pinref part="IC1" gate="A1" pin="VI"/>
 <pinref part="P+11" gate="1" pin="+12V"/>
 <wire x1="36.83" y1="238.76" x2="36.83" y2="233.68" width="0.1524" layer="91"/>
 </segment>

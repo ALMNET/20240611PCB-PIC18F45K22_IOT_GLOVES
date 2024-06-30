@@ -15856,7 +15856,7 @@ Added bigger pads to the TO-92 package</description>
 <part name="R4" library="resistor" deviceset="R-US_" device="0204/7" value="100Ω"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q3" library="crystal" deviceset="CRYSTAL" device="HC49S" value="20MHz"/>
-<part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
+<part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="RESET"/>
 <part name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="LOCAL/REMOTE"/>
 <part name="S3" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="UP"/>
 <part name="S4" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="DOWN"/>
@@ -16080,7 +16080,7 @@ CONNECTOR</text>
 </instance>
 <instance part="S1" gate="1" x="303.53" y="199.39" smashed="yes">
 <attribute name="NAME" x="297.18" y="196.85" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="299.72" y="202.565" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="309.88" y="194.945" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="S2" gate="1" x="19.05" y="129.54" smashed="yes">
 <attribute name="NAME" x="12.7" y="127" size="1.778" layer="95" rot="R90"/>
