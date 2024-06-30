@@ -15855,11 +15855,11 @@ Added bigger pads to the TO-92 package</description>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R4" library="resistor" deviceset="R-US_" device="0204/7" value="100Ω"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q3" library="crystal" deviceset="CRYSTAL" device="HC49S"/>
+<part name="Q3" library="crystal" deviceset="CRYSTAL" device="HC49S" value="20MHz"/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
-<part name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
-<part name="S3" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
-<part name="S4" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
+<part name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="LOCAL/REMOTE"/>
+<part name="S3" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="UP"/>
+<part name="S4" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="DOWN"/>
 <part name="IC3" library="lm35" deviceset="LM35" device="CZ"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -15876,7 +15876,7 @@ Added bigger pads to the TO-92 package</description>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R5" library="resistor" deviceset="R-US_" device="0204/7" value="4k7Ω"/>
 <part name="R6" library="resistor" deviceset="R-US_" device="0204/7" value="4k7Ω"/>
-<part name="SG1" library="buzzer" deviceset="F/TMB" device=""/>
+<part name="BUZZER" library="buzzer" deviceset="F/TMB" device=""/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3904" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
 <part name="R14" library="resistor" deviceset="R-US_" device="0204/7" value="4k7Ω"/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -15908,7 +15908,7 @@ Added bigger pads to the TO-92 package</description>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="IC1" library="adafruit" deviceset="78*" device="T" technology="05"/>
 <part name="IC2" library="v-reg" deviceset="LD117A?*" device="V" technology="33"/>
-<part name="CN_HEATER" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" value="PSU"/>
+<part name="CN_HEATER" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" value="HEATER"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -16149,7 +16149,7 @@ CONNECTOR</text>
 <attribute name="NAME" x="337.82" y="232.1814" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="347.98" y="231.902" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="SG1" gate="1" x="367.03" y="73.66" smashed="yes" rot="R270">
+<instance part="BUZZER" gate="1" x="367.03" y="73.66" smashed="yes" rot="R270">
 <attribute name="NAME" x="373.38" y="76.2" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="367.03" y="68.58" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -16496,7 +16496,7 @@ CONNECTOR</text>
 </segment>
 <segment>
 <pinref part="P+14" gate="VCC" pin="VCC"/>
-<pinref part="SG1" gate="1" pin="+"/>
+<pinref part="BUZZER" gate="1" pin="+"/>
 <wire x1="364.49" y1="81.28" x2="364.49" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -16667,7 +16667,7 @@ CONNECTOR</text>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="SG1" gate="1" pin="-"/>
+<pinref part="BUZZER" gate="1" pin="-"/>
 <wire x1="364.49" y1="68.58" x2="364.49" y2="62.23" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G1" pin="C"/>
 </segment>

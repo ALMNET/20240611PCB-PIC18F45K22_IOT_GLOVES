@@ -13351,7 +13351,7 @@ Variant with I2C interface</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DISPLAY-OLED-128X64-I2C">
+<deviceset name="DISPLAY-OLED-128X64-I2C" prefix="OLED">
 <description>&lt;b&gt;128x64 Dot Matrix OLED Module&lt;/b&gt; based on &lt;b&gt;SSD1306&lt;/b&gt; chip&lt;br /&gt;
 Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 &lt;p&gt;More details available here:&lt;br /&gt;
@@ -13634,7 +13634,7 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ESP32DEVKITV1">
+<deviceset name="ESP32DEVKITV1" prefix="ESP32$">
 <gates>
 <gate name="G$1" symbol="ESP32-DEVKITV1" x="0" y="0"/>
 </gates>
@@ -17003,9 +17003,9 @@ CONNECTOR</text>
 </net>
 <net name="DOUT_HEATER" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="RD0/SCK2/SCL2/AN20"/>
-<wire x1="214.63" y1="128.27" x2="236.22" y2="128.27" width="0.1524" layer="91"/>
-<label x="217.17" y="128.27" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="RC2/CTPLS/P1A/CCP1/T5CKI/AN14"/>
+<wire x1="214.63" y1="146.05" x2="236.22" y2="146.05" width="0.1524" layer="91"/>
+<label x="217.17" y="146.05" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DOUT_BUZZER" class="0">
